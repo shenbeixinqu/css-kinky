@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+        }
+        .left {
+            background-color: red;
+            width: 300px;
+            float: left;
+        }
+        .right {
+            background-color: blue;
+        }
+        .layout {
+            margin-bottom: 20px;
+        }
+        .layout .left,.right {
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="layout float">
+        <article>
+            <div class="left"></div>
+            <div class="right">使用float布局</div>
+        </article>
+    </section>
+</body>
+</html>
